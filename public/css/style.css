@@ -1,0 +1,45 @@
+body{
+    background-image: url("../img/fondo.jpg");
+}
+
+#contenido{
+    background-color:rgba(169, 169, 169, 0.5);
+    width: 300px;
+    height: 320px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    /*opacity: 0.5;*/
+
+    /*Bordes redondeados para el div central*/
+    border-radius: 28px 28px 28px 28px;
+    -moz-border-radius: 28px 28px 28px 28px;
+    -webkit-border-radius: 28px 28px 28px 28px;
+
+    /*Sombra en el alrededor del div central*/
+    -webkit-box-shadow: -1px 3px 26px 13px rgba(0,0,0,0.51);
+    -moz-box-shadow: -1px 3px 26px 13px rgba(0,0,0,0.51);
+    box-shadow: -1px 3px 26px 13px rgba(0,0,0,0.51);
+}
+
+.titulo{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 30px;
+    text-align: center;
+    text-shadow: 3px 3px 2px rgb(48, 49, 48);
+}
+
+#btnFB{
+    margin-top: 30px;
+    margin-left: 30px;
+
+    /*Sombra del botón*/
+    -webkit-box-shadow: -1px 3px 26px 13px rgba(0,0,0,0.51);
+    -moz-box-shadow: -1px 3px 26px 13px rgba(0,0,0,0.51);
+    box-shadow: -1px 3px 26px 13px rgba(0,0,0,0.51);
+}
+
+#iniciar{
+    text-align: center;
+}

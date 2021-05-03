@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ChatBot TM</title>
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v10.0&appId=488258758993198&autoLogAppEvents=1" nonce="2OImDB4Q"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+          
+    <div id="contenido">
+        <div class="titulo">
+            <h2>¡Bienvenido!</h2>
+            <h3> ChatBot TM </h3>
+        </div>
+        <!-- https://bot.dialogflow.com/5f361149-2d21-4dcb-ae30-975ca7e268c9  -->
+        <div id="btnFB" class="fb-login-button" data-width="50" data-size="large" data-button-type="login_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="true"></div>
+        <br>
+        <a id="iniciar" href="first.html">Try without login</a>
+    </div>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="controller.js"></script>
+</body>
+</html>
